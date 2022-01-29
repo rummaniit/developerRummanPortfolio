@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    
+}
+.orange-color{
+    color: orange;
+}
+body{
+font-family: 'M PLUS 2', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Praise', cursive;
+font-family: 'Shippori Antique', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 700;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    color: grey;
+    text-align: justify;
+}
+.btn{
+    background-image: linear-gradient(180deg,orange,tomato);
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border: none;
+    
+}
+.hire-me{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.half{
+    width: 50%;
+}
+.left{
+    margin-left: 50px;
+}
+.left,.right{
+    margin-top: 50px;
+}
+
+div>img{
+    width: 75%;
+    
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
