@@ -16,14 +16,15 @@ font-family: 'Ubuntu', sans-serif;
 font-weight: 700;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 p{
     color: grey;
     text-align: justify;
+    font-weight: 100;
 }
 .btn{
     background-image: linear-gradient(180deg,orange,tomato);
@@ -45,6 +46,9 @@ p{
 .half{
     width: 50%;
 }
+.half2{
+    width: 40%;
+}
 .left{
     margin-left: 50px;
 }
@@ -64,4 +68,36 @@ a{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.web-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+    margin: 10px;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+.android-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 10px;
+}
+.experience{
+    margin-top: 20px;
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.exp{
+    margin-left: 35px;
+}
+footer p{
+    text-align: center;
+    margin-top: 40px;
 }
