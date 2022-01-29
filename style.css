@@ -101,3 +101,26 @@ footer p{
     text-align: center;
     margin-top: 40px;
 }
+
+.card{
+    display: flex;
+    margin-left: 15px;  
+    
+}
+.one,.two,.three{
+    padding: 10px;
+}
+.item{
+    width: 50%;
+    
+}
+.item>p{
+    text-align: left;
+}
+#rdimg{
+    height: 225px;
+    border-radius: 10px;
+}
+.item img{
+    width: 90%;
+}
